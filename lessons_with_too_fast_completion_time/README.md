@@ -3,15 +3,14 @@
 ## Data
 
 There are tables:
-**finished_lesson_test** - table with lessons. Each row belongs to particular student who passed particular lesson of particular profession. 
-Table fields:
+
+**finished_lesson_test** - table with lessons. Each row belongs to particular student who passed particular lesson of particular profession. Table fields:
 ** date_created - student completion time;
 ** id - unique ID of each row;
 ** lesson_id - foreign key for making a connection with table *lesson_index_test*;
 ** user_id - student ID.
 
-**lesson_index_test** - table with all available lessons.
-Table fields:
+**lesson_index_test** - table with all available lessons. Table fields:
 * lesson_id - key field;
 * lesson_name - lesson name;
 * profession_id - profession ID for specific lesson;
